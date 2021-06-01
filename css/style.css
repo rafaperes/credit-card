@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#creditCard {
+    background-color: #222;
+    color: #ccc;
+    width: 40%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#creditCard #iconChip {
+    width: 54px;
+    height: 48px;
+}
+
+#creditCard #iconCard {
+    float: right;
+}
+
+#creditCard p {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+#cvvCard {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    #creditCard {
+        width: 100%;
+    }
+}
